@@ -1,0 +1,406 @@
+label	index	sentence1	sentence2
+entailment	0	She arrived with her friend, very lethargic.	 she  appeared unenergetic
+contradiction	1	She arrived with her friend, very lethargic.	 she arrived alert and oriented, energetic, in no distress
+neutral	2	She arrived with her friend, very lethargic.	 she was not ambulatory
+entailment	3	The patient was not acutely ill last night, so she was admitted to the Medicine team, with plan for ERCP today.	 she is scheduled for a medical procedure today
+contradiction	4	The patient was not acutely ill last night, so she was admitted to the Medicine team, with plan for ERCP today.	 the patient felt a sudden worsening in symptoms last night 
+neutral	5	The patient was not acutely ill last night, so she was admitted to the Medicine team, with plan for ERCP today.	 She has a history of gall stones 
+entailment	6	Reports lack of appetite but no n/v.	 the patient denies nausea and vomiting
+contradiction	7	Reports lack of appetite but no n/v.	 the patient complains of hematemesis
+neutral	8	Reports lack of appetite but no n/v.	 the patient is febrile 
+entailment	9	She was admitted to medicine service.	 she was admitted to the hospital 
+contradiction	10	She was admitted to medicine service.	 she was discharged home
+neutral	11	She was admitted to medicine service.	 her blood pressure was high 
+entailment	12	She continued to be afebrile without leukocytosis but reported no improvement in sputum production or dyspnea.	 her temperature was normal
+contradiction	13	She continued to be afebrile without leukocytosis but reported no improvement in sputum production or dyspnea.	 her shortness of breath improved 
+neutral	14	She continued to be afebrile without leukocytosis but reported no improvement in sputum production or dyspnea.	 she has a history of smoking 
+entailment	15	Head CT negative for acute process.	 the patient had imaging of the head  
+contradiction	16	Head CT negative for acute process.	 Head CT was consistent with stroke
+neutral	17	Head CT negative for acute process.	 the patient compained of headache 
+entailment	18	In the ED, her initial VS were HR 99, BP 102/56, RR 20, and 98% on RA.	 in the emergency room, her diastolic blood pressure was low 
+contradiction	19	In the ED, her initial VS were HR 99, BP 102/56, RR 20, and 98% on RA.	 the patient was hypertensive in the ED
+neutral	20	In the ED, her initial VS were HR 99, BP 102/56, RR 20, and 98% on RA.	 the patient received fluids in the ED 
+entailment	21	In the ED, initial VS were: 8 98 64 131/113	 in the ED initial respiratory rate was low  
+contradiction	22	In the ED, initial VS were: 8 98 64 131/113	 in the ED, the patient was hypotensive 
+neutral	23	In the ED, initial VS were: 8 98 64 131/113	 the patient was ambulatory
+entailment	24	Pt was found by EMS at his home at 10:21pm 	 the patient received medical attention by emergency medical services 
+contradiction	25	Pt was found by EMS at his home at 10:21pm 	 the patient presented to the ER by personal vehicle 
+neutral	26	Pt was found by EMS at his home at 10:21pm 	 the patient was comatose 
+entailment	27	He will be spending time with family and friends who are coming in from around the country to see him.	 his family will be visiting
+contradiction	28	He will be spending time with family and friends who are coming in from around the country to see him.	 his family and friends do not yet have plans to visit 
+neutral	29	He will be spending time with family and friends who are coming in from around the country to see him.	 he is in the ICU 
+entailment	30	He reports back pain secondary to old back injury.	 he has had back pain for a while
+contradiction	31	He reports back pain secondary to old back injury.	 his back pain is secondary to arthritis 
+neutral	32	He reports back pain secondary to old back injury.	 the back pain radiates down his leg 
+entailment	33	A CODE stroke was called and pt was taken for urgent CTA head which did not show any vessel obstruction and TPA was felt unlikely to be helpful.	 the patient was evaluated for stroke
+contradiction	34	A CODE stroke was called and pt was taken for urgent CTA head which did not show any vessel obstruction and TPA was felt unlikely to be helpful.	 CTA showed vessel blockage 
+neutral	35	A CODE stroke was called and pt was taken for urgent CTA head which did not show any vessel obstruction and TPA was felt unlikely to be helpful.	 the patient complained of headache
+entailment	36	There was also a 5mm  gallstone in the common bile duct, without ductal dilatation.	 the patient has a stone in the biliary system
+contradiction	37	There was also a 5mm  gallstone in the common bile duct, without ductal dilatation.	 the patient was found to have no gallstones
+neutral	38	There was also a 5mm  gallstone in the common bile duct, without ductal dilatation.	 the patient is obese 
+entailment	39	Denies fevers, chills, N/V, or change in appetite.	 the patient does not complain of nausea or vomiting
+contradiction	40	Denies fevers, chills, N/V, or change in appetite.	 the patient complains of recent loss of appetite
+neutral	41	Denies fevers, chills, N/V, or change in appetite.	 the patient denies pain
+entailment	42	Pt was admitted to [**Hospital Unit Name 153**] where she completed a 10-day course of ceftazadime and vancomycin for urosepsis.	 the patient required antibiotic treatment
+contradiction	43	Pt was admitted to [**Hospital Unit Name 153**] where she completed a 10-day course of ceftazadime and vancomycin for urosepsis.	 the patient completed antibiotic treatment as an outpatient
+neutral	44	Pt was admitted to [**Hospital Unit Name 153**] where she completed a 10-day course of ceftazadime and vancomycin for urosepsis.	 the patient has a history of diabetes
+entailment	45	Prior to transfer he reviewed his code status and decided to be DNR/DNI. .	 the patient's code status is 'do not intubate'
+contradiction	46	Prior to transfer he reviewed his code status and decided to be DNR/DNI. .	 the patient's code status is full code 
+neutral	47	Prior to transfer he reviewed his code status and decided to be DNR/DNI. .	 the patient is terminally ill
+entailment	48	By the time neuro came to bedside, pt was able to verbalize her name and was noted to be using the right arm and had left sided deficit.	 the patient was seen by neurology
+contradiction	49	By the time neuro came to bedside, pt was able to verbalize her name and was noted to be using the right arm and had left sided deficit.	 the patient was unable to state her name 
+neutral	50	By the time neuro came to bedside, pt was able to verbalize her name and was noted to be using the right arm and had left sided deficit.	 the patient has a history of stroke and hypertension
+entailment	51	The pt was discharged home [**2188-5-3**].	 the patient was able to leave the hospital and go home 
+contradiction	52	The pt was discharged home [**2188-5-3**].	 the patient was transferred to rehab 
+neutral	53	The pt was discharged home [**2188-5-3**].	 the patient was discharged with home medications 
+entailment	54	She was found mildly tachypneic/wheezing with emesis on her gown.	 She was found breathing abnormally
+contradiction	55	She was found mildly tachypneic/wheezing with emesis on her gown.	 She was found breathing normally
+neutral	56	She was found mildly tachypneic/wheezing with emesis on her gown.	 She complained of abdominal pain
+entailment	57	Medical management of her AF was initially tried.	 The patient has cardiac arrhythmia
+contradiction	58	Medical management of her AF was initially tried.	 The patient never received any treatment for AF
+neutral	59	Medical management of her AF was initially tried.	 The patient was was treated with beta blockers but complained of side effects
+entailment	60	The patient was emergently intubated.	 the patient needed ventilation 
+contradiction	61	The patient was emergently intubated.	 The patient was breathing normally on room air 
+neutral	62	The patient was emergently intubated.	 The patient had been in the ICU for some time
+entailment	63	She was in sinus rhythm after the procedure and had a HR in the 50s on atenolol and propafenone upon discharge.	 He had a medical procedure 
+contradiction	64	She was in sinus rhythm after the procedure and had a HR in the 50s on atenolol and propafenone upon discharge.	 He had tachycardia after the procedure 
+neutral	65	She was in sinus rhythm after the procedure and had a HR in the 50s on atenolol and propafenone upon discharge.	 He has a history of hypertension and hyperlipidemia 
+entailment	66	Today noted increased swelling and pain in the left calf, which had changed from previous baseline as she had not had pain in the leg before	 She states her symptoms have worsened
+contradiction	67	Today noted increased swelling and pain in the left calf, which had changed from previous baseline as she had not had pain in the leg before	 She denies worsening swelling in the calf 
+neutral	68	Today noted increased swelling and pain in the left calf, which had changed from previous baseline as she had not had pain in the leg before	 She has a history of DVT
+entailment	69	The ED resident noted that he was not particularly wheezy on exam.	  He was examined in the emergency room
+contradiction	70	The ED resident noted that he was not particularly wheezy on exam.	  The emergency room resident heard wheezes on exam
+neutral	71	The ED resident noted that he was not particularly wheezy on exam.	  He has a history of COPD
+entailment	72	He had an ABG on a non-rebreather which was 7.37/57/207/34.	  He had arterial blood taken 
+contradiction	73	He had an ABG on a non-rebreather which was 7.37/57/207/34.	  He was intubated when ABGs were taken
+neutral	74	He had an ABG on a non-rebreather which was 7.37/57/207/34.	  He is in the ICU
+entailment	75	Cardiology evaluated pt and felt his pain was unlikely cardiac.	  The patient complains of pain 
+contradiction	76	Cardiology evaluated pt and felt his pain was unlikely cardiac.	  Cardiology confirms that his pain is likely due to cardiac ischemia 
+neutral	77	Cardiology evaluated pt and felt his pain was unlikely cardiac.	  The patient has a history of GERD
+entailment	78	On further questioning, Mr. [**Known lastname 1858**] has very poor exercise tolerance due to knee pain that he attributes to osteoarthritis. 	  The patient complains of knee pain
+contradiction	79	On further questioning, Mr. [**Known lastname 1858**] has very poor exercise tolerance due to knee pain that he attributes to osteoarthritis. 	  The patient tolerates exercise well
+neutral	80	On further questioning, Mr. [**Known lastname 1858**] has very poor exercise tolerance due to knee pain that he attributes to osteoarthritis. 	  the patient also has hip pain
+entailment	81	This morning, she was administered 4 U FFP to reverse her INR.	  This morning, her INR was abnormal
+contradiction	82	This morning, she was administered 4 U FFP to reverse her INR.	  This morning, her INR was within normal limits 
+neutral	83	This morning, she was administered 4 U FFP to reverse her INR.	  Her INR normalized after treatment
+entailment	84	On transfer, patient VS were 102, 87/33, 100% on 60% 450 x 18 PEEP 5. 	  The patient's blood pressure was low on transfer
+contradiction	85	On transfer, patient VS were 102, 87/33, 100% on 60% 450 x 18 PEEP 5. 	  The patient's vitals were normal on transfer 
+neutral	86	On transfer, patient VS were 102, 87/33, 100% on 60% 450 x 18 PEEP 5. 	  The patient has multiple chronic diseases
+entailment	87	Right lower extremity ultrasound was negative for DVT.	 The patient was evaluated for blood clots in the leg  
+contradiction	88	Right lower extremity ultrasound was negative for DVT.	 The patient was found to have a blood clot in the lower extremity
+neutral	89	Right lower extremity ultrasound was negative for DVT.	  The patient has a history of pulmonary embolism
+entailment	90	Patient was not given any additional antibiotics given recent dose at HD.	 the patient recently received antibiotics  
+contradiction	91	Patient was not given any additional antibiotics given recent dose at HD.	 The patient was given another dose of antibiotics
+neutral	92	Patient was not given any additional antibiotics given recent dose at HD.	  The patient has an infection and fever
+entailment	93	The patient was also seen by the ERCP fellow.	 The patient was examined by a specialist in  gallbladder procedures
+contradiction	94	The patient was also seen by the ERCP fellow.	 The patient has not yet been seen for any gall bladder issues 
+neutral	95	The patient was also seen by the ERCP fellow.	  The patient has a history of gall stones and obesity
+entailment	96	CXR showed b/t lower lobe infiltrates.	  the patient had a chest xray
+contradiction	97	CXR showed b/t lower lobe infiltrates.	  The patient's chest xray was normal 
+neutral	98	CXR showed b/t lower lobe infiltrates.	  the patient has a chronic cough and fever
+entailment	99	Post-ERCP, she was admitted to the ICU with a diagnosis of cholangitis.	  she recently had a medical procedure
+contradiction	100	Post-ERCP, she was admitted to the ICU with a diagnosis of cholangitis.	 She tolerated the ERCP well and felt better post procedure
+neutral	101	Post-ERCP, she was admitted to the ICU with a diagnosis of cholangitis.	  she is jaundiced
+entailment	102	His symptoms occur about every day to every other day and have been stable over the past year.	 He has had symptoms for at least a year. 
+contradiction	103	His symptoms occur about every day to every other day and have been stable over the past year.	 He has experienced no symptoms recently. 
+neutral	104	His symptoms occur about every day to every other day and have been stable over the past year.	 His symptoms are severe. 
+entailment	105	Subsequently admitted to MICU for further monitoring of vital signs.	 The patient required intensive care. 
+contradiction	106	Subsequently admitted to MICU for further monitoring of vital signs.	 The patient was discharged. 
+neutral	107	Subsequently admitted to MICU for further monitoring of vital signs.	 The patient was hypotensive. 
+entailment	108	He did well on hospital day 1 but overnight his shortness of breath worsened.	 The patient had difficulty breathing. 
+contradiction	109	He did well on hospital day 1 but overnight his shortness of breath worsened.	 The patient had no symptoms or complaints overnight. 
+neutral	110	He did well on hospital day 1 but overnight his shortness of breath worsened.	 The patient has COPD
+entailment	111	Per report EKG was unremarkable.	 EKG found no abnormalities
+contradiction	112	Per report EKG was unremarkable.	 The patient has a STEMI
+neutral	113	Per report EKG was unremarkable.	The patient complains of chest pain
+entailment	114	He was subsequently transferred to the floor.	 He required further medical attention
+contradiction	115	He was subsequently transferred to the floor.	 He was discharged 
+neutral	116	He was subsequently transferred to the floor.	 His vitals were unstable
+entailment	117	She is on a daily ASA, and denies other NSAID use.	 She takes home medications
+contradiction	118	She is on a daily ASA, and denies other NSAID use.	 She takes Advil regularly
+neutral	119	She is on a daily ASA, and denies other NSAID use.	 She has a history of cardiac surgery
+entailment	120	Her disease is currently controlled by abatacept, hydroxychloroquine, and methotrexate.	 She is on immunosuppressant medication
+contradiction	121	Her disease is currently controlled by abatacept, hydroxychloroquine, and methotrexate.	 She is on no medication
+neutral	122	Her disease is currently controlled by abatacept, hydroxychloroquine, and methotrexate.	 She has a family history of autoimmune disease 
+entailment	123	There was also a concern for tachy-brady syndrome because she had pauses up to 4 sec on telemetry; EP curbside, however, felt digoxin was not recommended.	 The patient has had cardiac monitoring
+contradiction	124	There was also a concern for tachy-brady syndrome because she had pauses up to 4 sec on telemetry; EP curbside, however, felt digoxin was not recommended.	 The patient's heart rate and rhythm has been normal
+neutral	125	There was also a concern for tachy-brady syndrome because she had pauses up to 4 sec on telemetry; EP curbside, however, felt digoxin was not recommended.	 The patient has coronary artery disease
+entailment	126	His wife found him slumped over in the bath tube.	 He was found by a family member 
+contradiction	127	His wife found him slumped over in the bath tube.	 His wife found him alert and oriented
+neutral	128	His wife found him slumped over in the bath tube.	 He has a history of drug abuse
+entailment	129	On the floor, her BP was initially 98/65 but then decreased to SBP 70s.	 Her blood pressure was abnormal
+contradiction	130	On the floor, her BP was initially 98/65 but then decreased to SBP 70s.	 She is hypertensive
+neutral	131	On the floor, her BP was initially 98/65 but then decreased to SBP 70s.	 She requires breathing support
+entailment	132	He also had a head MRI that showed a less than 1 cm diameter sphenoid meningioma.	 Head MRI shows a benign tumor
+contradiction	133	He also had a head MRI that showed a less than 1 cm diameter sphenoid meningioma.	His head MRI was unremarkable
+neutral	134	He also had a head MRI that showed a less than 1 cm diameter sphenoid meningioma.	 He denied any symptoms
+entailment	135	Sister with sore throat as well.	 The patient has a family member who is sick
+contradiction	136	Sister with sore throat as well.	 No sick contacts, and no family members with symptoms
+neutral	137	Sister with sore throat as well.	 The sister has strep throat
+entailment	138	[**First Name3 (LF) 1957**] was consulted.	 Another medical provider was contacted
+contradiction	139	[**First Name3 (LF) 1957**] was consulted.	 The patient required no further medical attention and no consult was needed 
+neutral	140	[**First Name3 (LF) 1957**] was consulted.	 The patient is in the ICU
+entailment	141	Pt saw NP in complex care clinic on [**7-10**], at that time felt well overall, c/o dry cough but denied SOB, peripheral edema.	 The patient recently complained of cough
+contradiction	142	Pt saw NP in complex care clinic on [**7-10**], at that time felt well overall, c/o dry cough but denied SOB, peripheral edema.	 The patient complained of dyspnea and leg swelling during the visit at the complex care clinic
+neutral	143	Pt saw NP in complex care clinic on [**7-10**], at that time felt well overall, c/o dry cough but denied SOB, peripheral edema.	 The patient has a history of CHF
+entailment	144	Got a CTA for concern of PE-but no PE, but some increased interstitial markings in RUL and RLL, more likely chronic process vs. pneumonia.	 The patient was evaluated for pulmonary embolism
+contradiction	145	Got a CTA for concern of PE-but no PE, but some increased interstitial markings in RUL and RLL, more likely chronic process vs. pneumonia.	 A pulmonary embolism was found on CTA 
+neutral	146	Got a CTA for concern of PE-but no PE, but some increased interstitial markings in RUL and RLL, more likely chronic process vs. pneumonia.	 The patient has a history of PE
+entailment	147	Pt was therefore readmitted to the MICU.	 The patient required further monitoring
+contradiction	148	Pt was therefore readmitted to the MICU.	 The patient was discharged home 
+neutral	149	Pt was therefore readmitted to the MICU.	 The patient requires mechanical ventilation 
+entailment	150	Since that time, per the pt, he felt at baseline, with the exception of intermittent left leg pain (s/p vascular surgery, bypass) that would occasionally awaken him at night.	 The patient has peripheral vascular disease. 
+contradiction	151	Since that time, per the pt, he felt at baseline, with the exception of intermittent left leg pain (s/p vascular surgery, bypass) that would occasionally awaken him at night.	 The patient has never had surgery. 
+neutral	152	Since that time, per the pt, he felt at baseline, with the exception of intermittent left leg pain (s/p vascular surgery, bypass) that would occasionally awaken him at night.	 The patient has claudication. 
+entailment	153	This is a 84 year-old Russian speaking female with a history of systemic hypertension, pulmonary arterial hypertension, chronic diastolic CHF, who presents with hypotension, drop in hematocrit and guaiac positive stools.	 The patient has a GI bleed. 
+contradiction	154	This is a 84 year-old Russian speaking female with a history of systemic hypertension, pulmonary arterial hypertension, chronic diastolic CHF, who presents with hypotension, drop in hematocrit and guaiac positive stools.	 The patient has a normal hemoglobin count. 
+neutral	155	This is a 84 year-old Russian speaking female with a history of systemic hypertension, pulmonary arterial hypertension, chronic diastolic CHF, who presents with hypotension, drop in hematocrit and guaiac positive stools.	 The patient is taking blood thinners. 
+entailment	156	Patient reports that she has been feeling weak over the last 3 weeks with an unintentional 10 lb weight loss (of note over the last 2 months she has lost 20lbs).	 The patient has normal strength. 
+contradiction	157	Patient reports that she has been feeling weak over the last 3 weeks with an unintentional 10 lb weight loss (of note over the last 2 months she has lost 20lbs).	 The patient is feeling stronger than normal.
+neutral	158	Patient reports that she has been feeling weak over the last 3 weeks with an unintentional 10 lb weight loss (of note over the last 2 months she has lost 20lbs).	 The patient has cancer.
+entailment	159	Was given a 500cc bolus and responded to 89/50.	 The patient was hypotensive. 
+contradiction	160	Was given a 500cc bolus and responded to 89/50.	 The patient is hypertensive. 
+neutral	161	Was given a 500cc bolus and responded to 89/50.	 The patient is in hemorrhagic shock. 
+entailment	162	Taken to OR by ortho and found to have neg brefringent crystals c/w gout.	 The patient has a metabolic disease. 
+contradiction	163	Taken to OR by ortho and found to have neg brefringent crystals c/w gout.	 The patient a normal urea. 
+neutral	164	Taken to OR by ortho and found to have neg brefringent crystals c/w gout.	 The patient had podegra. 
+entailment	165	She had presented to her cardiologist one week prior to initial admission with complaints of worsening dyspnea and increased sputum production, without fever or leukocytosis.	 The patient has symptoms of a COPD exacerbation. 
+contradiction	166	She had presented to her cardiologist one week prior to initial admission with complaints of worsening dyspnea and increased sputum production, without fever or leukocytosis.	 The patient has normal breathing.
+neutral	167	She had presented to her cardiologist one week prior to initial admission with complaints of worsening dyspnea and increased sputum production, without fever or leukocytosis.	 The patient has emphysema.
+entailment	168	In the [**Hospital1 18**] ED, initial VS 97.5 130 143/82 28 94% RA.	 The patient is in the emergency department. 
+contradiction	169	In the [**Hospital1 18**] ED, initial VS 97.5 130 143/82 28 94% RA.	 The patient is bradycardic. 
+neutral	170	In the [**Hospital1 18**] ED, initial VS 97.5 130 143/82 28 94% RA.	 The patient has atrial fibrillation. 
+entailment	171	He had a chest xray which showed significant hyperinflation but no acute cardiopulmonary process.	 The patient does not have a lobar pneumonia. 
+contradiction	172	He had a chest xray which showed significant hyperinflation but no acute cardiopulmonary process.	 The patient has severe pulmonary edema. 
+neutral	173	He had a chest xray which showed significant hyperinflation but no acute cardiopulmonary process.	 The patient has emphysema. 
+entailment	174	Received ASA 325mg and Nitro 0.4mg x3.	 The patient is being treated for acute coronary syndrome. 
+contradiction	175	Received ASA 325mg and Nitro 0.4mg x3.	 The patient has not had any vasodilator drugs. 
+neutral	176	Received ASA 325mg and Nitro 0.4mg x3.	 The patient is having a myocardial infarction. 
+entailment	177	Denied recent fevers/chills, diarrhea/constipation, melena/hematochezia, BRBPR. .	 The patient does not have symptoms of a GI bleed. 
+contradiction	178	Denied recent fevers/chills, diarrhea/constipation, melena/hematochezia, BRBPR. .	 The patient has bright red blood per rectum. 
+neutral	179	Denied recent fevers/chills, diarrhea/constipation, melena/hematochezia, BRBPR. .	 The patient does not have abdominal pain. 
+entailment	180	The pt subsequently re-developed chest pain while in the ED.	 The patient has cardiac symptoms. 
+contradiction	181	The pt subsequently re-developed chest pain while in the ED.	 The patient has does not have chest pain. 
+neutral	182	The pt subsequently re-developed chest pain while in the ED.	 The patient has acute coronary syndrome. 
+entailment	183	Toxicology was consulted and recommended NAC for 21 hours until level is undetectable and LFT stabilizes.	 The patient has a tylenol overdose. 
+contradiction	184	Toxicology was consulted and recommended NAC for 21 hours until level is undetectable and LFT stabilizes.	 The patient has normal liver enzyme counts. 
+neutral	185	Toxicology was consulted and recommended NAC for 21 hours until level is undetectable and LFT stabilizes.	 The patient attempted suicide. 
+entailment	186	He subsequently stopped that regimen and reverted back to his old regimen.	 He was receiving a treatment. 
+contradiction	187	He subsequently stopped that regimen and reverted back to his old regimen.	 He kept on the same regimen. 
+neutral	188	He subsequently stopped that regimen and reverted back to his old regimen.	 He was on chemotherapy 
+entailment	189	The patient also described subjective fevers and chills.	 The patient had infectious symptoms. 
+contradiction	190	The patient also described subjective fevers and chills.	 The patient is asymptomatic. 
+neutral	191	The patient also described subjective fevers and chills.	 The patient has the flu. 
+entailment	192	Pt is currently somnolent and unable to provide a detailed history, so details are obtained from OMR and Atrius records.	 Pt is unable to provide a complete medical history. 
+contradiction	193	Pt is currently somnolent and unable to provide a detailed history, so details are obtained from OMR and Atrius records.	 The patient is A&Ox3. 
+neutral	194	Pt is currently somnolent and unable to provide a detailed history, so details are obtained from OMR and Atrius records.	 The patient has a serious medical condition. 
+entailment	195	82yo Russian speaking F with a PMH of type II DM, HTN, hyperlipidemia, obesity, pulmonary HTN and anemia, who presented to the ED this AM with worsening SOB x 2 weeks.	 She has type 2 diabetes. 
+contradiction	196	82yo Russian speaking F with a PMH of type II DM, HTN, hyperlipidemia, obesity, pulmonary HTN and anemia, who presented to the ED this AM with worsening SOB x 2 weeks.	 The patient is able to breath normally. 
+neutral	197	82yo Russian speaking F with a PMH of type II DM, HTN, hyperlipidemia, obesity, pulmonary HTN and anemia, who presented to the ED this AM with worsening SOB x 2 weeks.	 The patient is having a CHF exacerbation. 
+entailment	198	The pain was described as sharp, constant.	 The patient has focal pain. 
+contradiction	199	The pain was described as sharp, constant.	 The patient has no pain. 
+neutral	200	The pain was described as sharp, constant.	 the patient has a broken limb. 
+entailment	201	She was notably tachypneic and eyes were deviated to right side.	 She is breathy rapidly. 
+contradiction	202	She was notably tachypneic and eyes were deviated to right side.	 She is breathing slow.
+neutral	203	She was notably tachypneic and eyes were deviated to right side.	 She is having a stroke. 
+entailment	204	She also endorses some right sided chest pain that is not pleuritic, which she states has been intermitent for several months.	 The patient has chest pain. 
+contradiction	205	She also endorses some right sided chest pain that is not pleuritic, which she states has been intermitent for several months.	 The patient has constant chest pain. 
+neutral	206	She also endorses some right sided chest pain that is not pleuritic, which she states has been intermitent for several months.	 The patient has costochondritis. 
+entailment	207	While on the floor, appears comfortable, denies any SOB, chest pain/discomfort, abdominal pain/discomfort, urinary symptoms or URI symptoms.	 The patient does not require ICU level of care. 
+contradiction	208	While on the floor, appears comfortable, denies any SOB, chest pain/discomfort, abdominal pain/discomfort, urinary symptoms or URI symptoms.	 The patient has cardiac symptoms. 
+neutral	209	While on the floor, appears comfortable, denies any SOB, chest pain/discomfort, abdominal pain/discomfort, urinary symptoms or URI symptoms.	 The patient does not have an infection. 
+entailment	210	The patient states that today he invited a friend over to his house where he shared 1L of vodka.	 The patient consumed copious amounts of alcohol. 
+contradiction	211	The patient states that today he invited a friend over to his house where he shared 1L of vodka.	 The patient did not consume alcohol. 
+neutral	212	The patient states that today he invited a friend over to his house where he shared 1L of vodka.	 The patient is an alcoholic. 
+entailment	213	Outside labs with CK 60, other ezymes pending at time of transfer, BNP 17. .	 the patient had elevated cardiac enzymes. 
+contradiction	214	Outside labs with CK 60, other ezymes pending at time of transfer, BNP 17. .	 The patient has normal cardiac enzymes. 
+neutral	215	Outside labs with CK 60, other ezymes pending at time of transfer, BNP 17. .	 The patient does have laboratory findings of a CHF exacerbation. 
+entailment	216	In PCPs office, unable to open her mouth, tender thick neck unable to evaluate pharynx.	 The patient has symptoms of a pharyngitis. 
+contradiction	217	In PCPs office, unable to open her mouth, tender thick neck unable to evaluate pharynx.	 The patient has no pain. 
+neutral	218	In PCPs office, unable to open her mouth, tender thick neck unable to evaluate pharynx.	 The patient has tonsillitis. 
+entailment	219	On return to the floor, pt was given narcan without any significant change in mental status.	 The patient was treated for an opioid overdose. 
+contradiction	220	On return to the floor, pt was given narcan without any significant change in mental status.	 The patient has a normal mental exam. 
+neutral	221	On return to the floor, pt was given narcan without any significant change in mental status.	 The patient did not have an opioid overdose. 
+entailment	222	On next assessment (2 hrs later), pt was felt to be very SOB while attempting to use the bed pan.	 The patient gets short of breath pooping and peeing. 
+contradiction	223	On next assessment (2 hrs later), pt was felt to be very SOB while attempting to use the bed pan.	 The patient can use a toilet without difficulty. 
+neutral	224	On next assessment (2 hrs later), pt was felt to be very SOB while attempting to use the bed pan.	 The patient is reconditioned. 
+entailment	225	Patient denies nausea, vomiting, chest pain, night sweats, but does endorse a poor appetite.	 The patient does not have cardiac symptoms. 
+contradiction	226	Patient denies nausea, vomiting, chest pain, night sweats, but does endorse a poor appetite.	 The patient is actively vomiting. 
+neutral	227	Patient denies nausea, vomiting, chest pain, night sweats, but does endorse a poor appetite.	 the patient has an abdominal problem. 
+entailment	228	She was seen in [**Company 191**] the next morning and was found to have O2 sats in the 80s, so she was sent to the ED. .	 The patient was hypoxic. 
+contradiction	229	She was seen in [**Company 191**] the next morning and was found to have O2 sats in the 80s, so she was sent to the ED. .	 The patient had normal O2 saturations. 
+neutral	230	She was seen in [**Company 191**] the next morning and was found to have O2 sats in the 80s, so she was sent to the ED. .	 The patient received supplemental oxygen. 
+entailment	231	"He noted intermittent right sided chest pain as well last night, which felt like ""gas pain"", + SOB, no diaphoresis, + nausea, no vomiting."	 The patient had nausea and shortness of breath. 
+contradiction	232	"He noted intermittent right sided chest pain as well last night, which felt like ""gas pain"", + SOB, no diaphoresis, + nausea, no vomiting."	 The patient had diaphoresis. 
+neutral	233	"He noted intermittent right sided chest pain as well last night, which felt like ""gas pain"", + SOB, no diaphoresis, + nausea, no vomiting."	 The patient has non cardiac chest pain. 
+entailment	234	He worked previously in the printing business and thinks he could have been exposed to some chemicals.	 The patient had industrial chemical exposure. 
+contradiction	235	He worked previously in the printing business and thinks he could have been exposed to some chemicals.	 The patient has had no abnormal exposures. 
+neutral	236	He worked previously in the printing business and thinks he could have been exposed to some chemicals.	 The patient has cancer. 
+entailment	237	He denies exertional buttock or calf pain.	 The patient denies claudication in the calf of buttock. 
+contradiction	238	He denies exertional buttock or calf pain.	 The patient has buttock pain. 
+neutral	239	He denies exertional buttock or calf pain.	 The patient does not have peripheral vascular disease. 
+entailment	240	Currently, the patient continues to complain of dyspnea and cough.	 The patient has symptoms of a COPD exacerbation. 
+contradiction	241	Currently, the patient continues to complain of dyspnea and cough.	 The patient has no COPD symptoms. 
+neutral	242	Currently, the patient continues to complain of dyspnea and cough.	 The patient is having a COPD exacerbation. 
+entailment	243	On arrival to the MICU, she is responsive to tactile stimuli.	 The patient requires a high level of care. 
+contradiction	244	On arrival to the MICU, she is responsive to tactile stimuli.	 The patient is not responsive. 
+neutral	245	On arrival to the MICU, she is responsive to tactile stimuli.	 The patient had brain trauma. 
+entailment	246	In the ED, initial vs were: T: 99.5 P109 BP101/56 R24 79% on RA on presentation, 100% on NRB.	 The patient was in respiratory distress. 
+contradiction	247	In the ED, initial vs were: T: 99.5 P109 BP101/56 R24 79% on RA on presentation, 100% on NRB.	 The patient has a normal oxygenation. 
+neutral	248	In the ED, initial vs were: T: 99.5 P109 BP101/56 R24 79% on RA on presentation, 100% on NRB.	 The patient is having a COPD exacerbation. 
+entailment	249	She denies fever or chills.	 The patient does not have systemic infectious symptoms. 
+contradiction	250	She denies fever or chills.	 The patient has B symptoms. 
+neutral	251	She denies fever or chills.	 The patient does not have the flu. 
+entailment	252	Reports inability to get secretions up. .	 The patient cannot clear secretions. 
+contradiction	253	Reports inability to get secretions up. .	 The patient has full airway control. 
+neutral	254	Reports inability to get secretions up. .	 The patient is severely reconditioned. 
+entailment	255	The pain was fairly constant and did not resolve until he was given sL NTG at 6 am by EMS.	 The patients pain was resolved by a vasodilator. 
+contradiction	256	The pain was fairly constant and did not resolve until he was given sL NTG at 6 am by EMS.	 The patient has no pain. 
+neutral	257	The pain was fairly constant and did not resolve until he was given sL NTG at 6 am by EMS.	 The patient is having an MI. 
+entailment	258	Tried to wean him down on 02, as soon as he would fall asleep would desat.	 The patient requires supplemental oxygen. 
+contradiction	259	Tried to wean him down on 02, as soon as he would fall asleep would desat.	 The patient has normal O2 sats while sleeping. 
+neutral	260	Tried to wean him down on 02, as soon as he would fall asleep would desat.	 The patient has OSA. 
+entailment	261	She denies chest pain, URI sx, nausea/vomiting, diarrhea, or dysuria.	 The patient does not have symptoms of a chest cold. 
+contradiction	262	She denies chest pain, URI sx, nausea/vomiting, diarrhea, or dysuria.	 Thet patient has symptoms of a myocardial infarction. 
+neutral	263	She denies chest pain, URI sx, nausea/vomiting, diarrhea, or dysuria.	 The patient is asymptomatic. 
+entailment	264	She has no new systemic complaints.	 The patient does not have any current complaints. 
+contradiction	265	She has no new systemic complaints.	 She has systemic symptoms. 
+neutral	266	She has no new systemic complaints.	 She has no complaints. 
+entailment	267	Noted to be tachycardic by vitals, and with decreased O2 sat to 90% on RA -> 96% 2L NC.	 The patient has a fast heart rate. 
+contradiction	268	Noted to be tachycardic by vitals, and with decreased O2 sat to 90% on RA -> 96% 2L NC.	 The patient is bradycardic.
+neutral	269	Noted to be tachycardic by vitals, and with decreased O2 sat to 90% on RA -> 96% 2L NC.	 The patient has a respiratory problem. 
+entailment	270	Per report, patient had poor respiratory effort, became apneic, and was subsequently intubated.	 The patient was in respiratory distress. 
+contradiction	271	Per report, patient had poor respiratory effort, became apneic, and was subsequently intubated.	 The patient is able to breath on their own. 
+neutral	272	Per report, patient had poor respiratory effort, became apneic, and was subsequently intubated.	 The patient has pneumonia. 
+entailment	273	She was also given 1 dose of mucomyst prior to her CT scan.	 The patient received medication prior to the CT scan. 
+contradiction	274	She was also given 1 dose of mucomyst prior to her CT scan.	 The patient did not have a scan. 
+neutral	275	She was also given 1 dose of mucomyst prior to her CT scan.	 She was given medication to prevent renal failure. 
+entailment	276	He presented to [**Hospital 1474**] Hospital ER this morning with shortness of breath and chest pain and was found to be in heart failure.	 The patient has a heart dysfunction. 
+contradiction	277	He presented to [**Hospital 1474**] Hospital ER this morning with shortness of breath and chest pain and was found to be in heart failure.	 The patient has a normal heart. 
+neutral	278	He presented to [**Hospital 1474**] Hospital ER this morning with shortness of breath and chest pain and was found to be in heart failure.	 He has ischemic cardiomyopathy.
+entailment	279	She says that she was taking the tylenol intentionally to worsen her liver function.	 She is hurting her body. 
+contradiction	280	She says that she was taking the tylenol intentionally to worsen her liver function.	 The patient has normal liver function. 
+neutral	281	She says that she was taking the tylenol intentionally to worsen her liver function.	 The patient has cirrhosis. 
+entailment	282	In ED she had SBP 90s so received another 500cc NS bolus.	 She is hypotensive. 
+contradiction	283	In ED she had SBP 90s so received another 500cc NS bolus.	 The patient is hypertensive. 
+neutral	284	In ED she had SBP 90s so received another 500cc NS bolus.	 She is in hypovolemic shock. 
+entailment	285	EMS was called, and she was given CPAP with some relief of her dyspnea.	 The patient is short of breath. 
+contradiction	286	EMS was called, and she was given CPAP with some relief of her dyspnea.	 She was not short of breath. 
+neutral	287	EMS was called, and she was given CPAP with some relief of her dyspnea.	 She is having a CHF exacerbation. 
+entailment	288	One day prior to presenation, the patient self-started asacol from previous prescription because worsening of rectal chrone's disease.	 The patient has inflammatory bowel disease. 
+contradiction	289	One day prior to presenation, the patient self-started asacol from previous prescription because worsening of rectal chrone's disease.	 The patient has normal bowel. 
+neutral	290	One day prior to presenation, the patient self-started asacol from previous prescription because worsening of rectal chrone's disease.	 The patient has a fistula. 
+entailment	291	He was intubated secondary to agitation.	 The patient is on mechanical ventilation. 
+contradiction	292	He was intubated secondary to agitation.	 The patient is breathing on his own. 
+neutral	293	He was intubated secondary to agitation.	 The patient has delirium. 
+entailment	294	Tox screen was also positive for cocaine, TCAs and acetaminophen	 The patient took drugs. 
+contradiction	295	Tox screen was also positive for cocaine, TCAs and acetaminophen	 The patient has a negative tax screen. 
+neutral	296	Tox screen was also positive for cocaine, TCAs and acetaminophen	 The patient is a drug addict. 
+entailment	297	"The patient was noted to be ""cold."""	 The patient is cool to touch.
+contradiction	298	"The patient was noted to be ""cold."""	 The patient is warm to the touch. 
+neutral	299	"The patient was noted to be ""cold."""	 The patient is dead. 
+entailment	300	He was feeling more short of breath despite increasing oxygen use.	 The patient has an oxygen requirement. 
+contradiction	301	He was feeling more short of breath despite increasing oxygen use.	 The patient is breathing normally. 
+neutral	302	He was feeling more short of breath despite increasing oxygen use.	 The patient has congestive heart failure. 
+entailment	303	She states that over the past 2 days, she has had worsening shortness of breath such that she is now unable to climb [**11-27**] flight of stairs.	 The patient has dyspnea on exertion. 
+contradiction	304	She states that over the past 2 days, she has had worsening shortness of breath such that she is now unable to climb [**11-27**] flight of stairs.	 The patient is able to exercise more than normal. 
+neutral	305	She states that over the past 2 days, she has had worsening shortness of breath such that she is now unable to climb [**11-27**] flight of stairs.	 The patient has congestive heart failure. 
+entailment	306	He had subjective fevers and chills but did not check his temperature.	 He has symptoms of an infection.
+contradiction	307	He had subjective fevers and chills but did not check his temperature.	 No symptoms of an infection. 
+neutral	308	He had subjective fevers and chills but did not check his temperature.	 He has an infection. 
+entailment	309	She cam to the BTC for discussion about management of her right cavernous sinus mass that extends into the middle cranial fossa.	 She has an intracranial mass. 
+contradiction	310	She cam to the BTC for discussion about management of her right cavernous sinus mass that extends into the middle cranial fossa.	 The patient has no intracranial mass. 
+neutral	311	She cam to the BTC for discussion about management of her right cavernous sinus mass that extends into the middle cranial fossa.	 She has a cavernous sinus meningioma. 
+entailment	312	She developed a worsening O2 requirement to 5L nc, and received vanco, levofloxacin, and ceftriaxone.	 She is being treated for an infection. 
+contradiction	313	She developed a worsening O2 requirement to 5L nc, and received vanco, levofloxacin, and ceftriaxone.	 She has not received antibiotics. 
+neutral	314	She developed a worsening O2 requirement to 5L nc, and received vanco, levofloxacin, and ceftriaxone.	 The patient has pneumonia. 
+entailment	315	At 1:13 am the patient was intubated for airway protection, but the intubation was difficult and anaesthesia needed to perform the intubation fiberoptically.	 The patient in on mechanical ventilation.
+contradiction	316	At 1:13 am the patient was intubated for airway protection, but the intubation was difficult and anaesthesia needed to perform the intubation fiberoptically.	 The patient is breathing in their own. 
+neutral	317	At 1:13 am the patient was intubated for airway protection, but the intubation was difficult and anaesthesia needed to perform the intubation fiberoptically.	 The patient is unable to breath on their own. 
+entailment	318	He does not know if she was ever exposed to tuberculosis.	 The patient does not know is she has been in close contact with a TB patient. 
+contradiction	319	He does not know if she was ever exposed to tuberculosis.	 He has had a TB exposure. 
+neutral	320	He does not know if she was ever exposed to tuberculosis.	 The patient is PPD negative. 
+entailment	321	Underwent LLE ultrasound which showed no evidence of DVT, but substantial subcutaneous edema.	 The patient does not have a blood clot in the left leg. 
+contradiction	322	Underwent LLE ultrasound which showed no evidence of DVT, but substantial subcutaneous edema.	 The patient has a left lower extremity DVT. 
+neutral	323	Underwent LLE ultrasound which showed no evidence of DVT, but substantial subcutaneous edema.	 The patient has a left lower extremity cellulitis. 
+entailment	324	He complains of associated dizziness and had hypotension in the ED.	 The patient has orthostasis. 
+contradiction	325	He complains of associated dizziness and had hypotension in the ED.	 The patient is hypertensive. 
+neutral	326	He complains of associated dizziness and had hypotension in the ED.	 He is hypovolemic. 
+entailment	327	Head of bed was elevated and pt was suctionned prior to transferred to the ICU for closer monitoring of airway and management of acute pneumonia.	 The patient requires a high level of care. 
+contradiction	328	Head of bed was elevated and pt was suctionned prior to transferred to the ICU for closer monitoring of airway and management of acute pneumonia.	 The patient does not have an infection. 
+neutral	329	Head of bed was elevated and pt was suctionned prior to transferred to the ICU for closer monitoring of airway and management of acute pneumonia.	 The patient is unable to manage his own secretions. 
+entailment	330	Brief CCU event: CT scan of abd neg for RP bleed.	 The patient does not have a retroperitoneal bleed. 
+contradiction	331	Brief CCU event: CT scan of abd neg for RP bleed.	 The patient has never had a CT scan. 
+neutral	332	Brief CCU event: CT scan of abd neg for RP bleed.	 The patient is on blood thinners or anticoagulation. 
+entailment	333	This is a 81 year old Russian speaking only woman brought from home after a syncopal episode on day of admission.	 She passed out. 
+contradiction	334	This is a 81 year old Russian speaking only woman brought from home after a syncopal episode on day of admission.	 She only speaks english. 
+neutral	335	This is a 81 year old Russian speaking only woman brought from home after a syncopal episode on day of admission.	 The patient had a hypotensive episode. 
+entailment	336	She also reports that over the last 3 days she has been having more watery stools than normal, but no more frequent BM's than usual.	 The patient has GI symptoms. 
+contradiction	337	She also reports that over the last 3 days she has been having more watery stools than normal, but no more frequent BM's than usual.	 The patient has had normal stools. 
+neutral	338	She also reports that over the last 3 days she has been having more watery stools than normal, but no more frequent BM's than usual.	 The patient has enteritis. 
+entailment	339	History of Present Illness: 54M with hx of ETOH abuse, HCV, presented to the ED this evening intoxicated.	 The patient has a viral infection. 
+contradiction	340	History of Present Illness: 54M with hx of ETOH abuse, HCV, presented to the ED this evening intoxicated.	 The patient has no substance abuse issues. 
+neutral	341	History of Present Illness: 54M with hx of ETOH abuse, HCV, presented to the ED this evening intoxicated.	 The patient is an alcoholic. 
+entailment	342	His symptoms occur about every day to every other day and have been stable over the past year.	 The patient has regular symptoms. 
+contradiction	343	His symptoms occur about every day to every other day and have been stable over the past year.	 The patient has no symptoms. 
+neutral	344	His symptoms occur about every day to every other day and have been stable over the past year.	 The patient condition is controlled.
+entailment	345	He also received 1 dose of labetalol IV	 The patient was given blood pressure lowering medication. 
+contradiction	346	He also received 1 dose of labetalol IV	 The patient did not receive medication. 
+neutral	347	He also received 1 dose of labetalol IV	 The patient was hypertensive. 
+entailment	348	His initial BP at OSH 130/75, down to 93/63 after nitro.	 The patient was initially normotensive. 
+contradiction	349	His initial BP at OSH 130/75, down to 93/63 after nitro.	 The patient was normotensive after the medication. 
+neutral	350	His initial BP at OSH 130/75, down to 93/63 after nitro.	 The patient was taking Cialis. 
+entailment	351	Notes mild diffuse, nonfocal abdominal pain which he feels is caused by the nausea and is worse w/eating.	 The patient has GI symptoms. 
+contradiction	352	Notes mild diffuse, nonfocal abdominal pain which he feels is caused by the nausea and is worse w/eating.	 The patient has no abdominal pain. 
+neutral	353	Notes mild diffuse, nonfocal abdominal pain which he feels is caused by the nausea and is worse w/eating.	 The patient has an ulcer. 
+entailment	354	She was given a nebulizer and brought to the ER. .	 The patient has a respiratory condition. 
+contradiction	355	She was given a nebulizer and brought to the ER. .	 the patient is not getting medication. 
+neutral	356	She was given a nebulizer and brought to the ER. .	 The patient has an asthma exacerbation. 
+entailment	357	She did not have nausea, vomiting, blurry vision, imbalance, or fall.	 The patient denies nausea and vomiting. 
+contradiction	358	She did not have nausea, vomiting, blurry vision, imbalance, or fall.	 The patient has vertigo. 
+neutral	359	She did not have nausea, vomiting, blurry vision, imbalance, or fall.	 The patient does not have visual symptoms. 
+entailment	360	Of note, patient also reports that 2 weeks ago she had burning on urination for 7 days that went away spontaneously.	 The patient has urinary symptoms. 
+contradiction	361	Of note, patient also reports that 2 weeks ago she had burning on urination for 7 days that went away spontaneously.	 The patient has persistent unitary symptoms. 
+neutral	362	Of note, patient also reports that 2 weeks ago she had burning on urination for 7 days that went away spontaneously.	 The patient has a urinary tract infection. 
+entailment	363	On the floor, he is doing relatively well.	 The patient does not require ICU level of care. 
+contradiction	364	On the floor, he is doing relatively well.	 The patient is intubated and sedated. 
+neutral	365	On the floor, he is doing relatively well.	 The patient is stable. 
+entailment	366	Her abdomen was slightly distended, with no rigidity or rebound.	 The patient has symptoms of ilius. 
+contradiction	367	Her abdomen was slightly distended, with no rigidity or rebound.	 The patient has an acute abdomen. 
+neutral	368	Her abdomen was slightly distended, with no rigidity or rebound.	 The patient is recently post op.
+entailment	369	No loss of consciousness, no known trauma.	 The patient did not have a loss of consciousness. 
+contradiction	370	No loss of consciousness, no known trauma.	 The patient was in an MVC. 
+neutral	371	No loss of consciousness, no known trauma.	 The patient did not have a concussion. 
+entailment	372	The diltiazem had been discontinued secondary to bradycardia post-procedure.	 The patient that was given medication to control heart rate. 
+contradiction	373	The diltiazem had been discontinued secondary to bradycardia post-procedure.	 The patient has a normal heart rate. 
+neutral	374	The diltiazem had been discontinued secondary to bradycardia post-procedure.	 The patient has congestive heart failure. 
+entailment	375	Chest x-ray showed bilateral effusions and left lower lobe pneumonia.	 The patient has findings of a lung infection. 
+contradiction	376	Chest x-ray showed bilateral effusions and left lower lobe pneumonia.	 The patient has a clear CXR. 
+neutral	377	Chest x-ray showed bilateral effusions and left lower lobe pneumonia.	 The patient has lobar pneumonia. 
+entailment	378	Patient rec'd IV morphine and a tetanus shot in ED.	 The patient was given pain medication. 
+contradiction	379	Patient rec'd IV morphine and a tetanus shot in ED.	 The patient did not get pain medication. 
+neutral	380	Patient rec'd IV morphine and a tetanus shot in ED.	 The patient received a skin wound. 
+entailment	381	On further questioning, she claims that she had not been taking her usual dose of lasix for one week.	 That patient is not compliant on medication. 
+contradiction	382	On further questioning, she claims that she had not been taking her usual dose of lasix for one week.	 That patient has not been prescribed medication. 
+neutral	383	On further questioning, she claims that she had not been taking her usual dose of lasix for one week.	 That patient has congestive heart failure. 
+entailment	384	Pericardial pressure decreased to 5mm Hg, and RA to 18mm	 The patient's pericardial pressure was lowered. 
+contradiction	385	Pericardial pressure decreased to 5mm Hg, and RA to 18mm	 The patient had normal pericardial pressure.
+neutral	386	Pericardial pressure decreased to 5mm Hg, and RA to 18mm	 The patient had cardiac tamponade. 
+entailment	387	"He stated he was up this morning at 4am b/c of this left leg pain, when he developed a ""cold rough"" feeling in his esophagus similar to his pain that he had with all of his prior MIs."	 The patient had symptoms of a myocardial infarction. 
+contradiction	388	"He stated he was up this morning at 4am b/c of this left leg pain, when he developed a ""cold rough"" feeling in his esophagus similar to his pain that he had with all of his prior MIs."	 that patient has no cardiac symptoms. 
+neutral	389	"He stated he was up this morning at 4am b/c of this left leg pain, when he developed a ""cold rough"" feeling in his esophagus similar to his pain that he had with all of his prior MIs."	 the patient is having a myocardial infarction. 
+entailment	390	He was transferred to the MICU for management of hypertensive emergency.	 The patient requires a high level of care. 
+contradiction	391	He was transferred to the MICU for management of hypertensive emergency.	 The patient is hypotensive. 
+neutral	392	He was transferred to the MICU for management of hypertensive emergency.	 The patient is receiving antihypertensive medication. 
+entailment	393	BP was stable throughout.	 The patient maintained a regular blood pressure. 
+contradiction	394	BP was stable throughout.	 The patient had a fluctuating blood pressure. 
+neutral	395	BP was stable throughout.	 The patient is normotensive. 
+entailment	396	A CXR was performed at the time to rule out pneumonia which was negative for consolidation.	 The patient had a clear chest X-ray. 
+contradiction	397	A CXR was performed at the time to rule out pneumonia which was negative for consolidation.	 The patient has a lobar pneumonia. 
+neutral	398	A CXR was performed at the time to rule out pneumonia which was negative for consolidation.	 The patient does not have a lung infection. 
+entailment	399	She was sent to the ER where a repeat CXR showed bilateral upper lobe opacities concerning for pneumonia.	 The patient has a positive chest X-ray. 
+contradiction	400	She was sent to the ER where a repeat CXR showed bilateral upper lobe opacities concerning for pneumonia.	 The patient has a clear X-ray. 
+neutral	401	She was sent to the ER where a repeat CXR showed bilateral upper lobe opacities concerning for pneumonia.	 The patient has pneumonia. 
+entailment	402	While on the floor he was started on azithromycin, solumedrol 125 mg IV TID, albuterol and ipratropium nebulizers.	 The patient is being treated for a CHF exacerbation. 
+contradiction	403	While on the floor he was started on azithromycin, solumedrol 125 mg IV TID, albuterol and ipratropium nebulizers.	 The patient did not receive bronchodilators. 
+neutral	404	While on the floor he was started on azithromycin, solumedrol 125 mg IV TID, albuterol and ipratropium nebulizers.	 The patient was a smoker. 
